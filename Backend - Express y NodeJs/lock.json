@@ -1,0 +1,93 @@
+[
+    {
+      "titulo": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "director": "Gore Verbinski",
+      "genero": "Aventura",
+      "duracion": 143,
+      "sinopsis": "El capitán Jack Sparrow intenta recuperar su barco, el Perla Negra, y rescatar a la gobernadora secuestrada de Port Royal de las garras de un grupo de piratas malditos.",
+      "imagen": "https://ejemplo.com/imagen1.jpg",
+      "actores": "Johnny Depp, Orlando Bloom, Keira Knightley",
+      "idioma": "Inglés",
+      "clasificacion": "PG-13",
+      "calificacion": 8.0,
+      "fechaLanzamiento": "2003-07-09"
+    },
+    {
+      "titulo": "The Shawshank Redemption",
+      "director": "Frank Darabont",
+      "genero": "Drama",
+      "duracion": 142,
+      "sinopsis": "Un hombre inocente es condenado a cadena perpetua en la prisión de Shawshank, donde forma una amistad inquebrantable con otro prisionero y trabaja para demostrar su inocencia.",
+      "imagen": "https://ejemplo.com/imagen2.jpg",
+      "actores": "Tim Robbins, Morgan Freeman",
+      "idioma": "Inglés",
+      "clasificacion": "R",
+      "calificacion": 9.3,
+      "fechaLanzamiento": "1994-09-23"
+    },
+    {
+      "titulo": "The Godfather",
+      "director": "Francis Ford Coppola",
+      "genero": "Crimen, Drama",
+      "duracion": 175,
+      "sinopsis": "La historia de la familia Corleone, una de las familias mafiosas más poderosas de Nueva York, y su líder, Don Vito Corleone.",
+      "imagen": "https://ejemplo.com/imagen3.jpg",
+      "actores": "Marlon Brando, Al Pacino",
+      "idioma": "Inglés",
+      "clasificacion": "R",
+      "calificacion": 9.2,
+      "fechaLanzamiento": "1972-03-24"
+    },
+    {
+      "titulo": "The Dark Knight",
+      "director": "Christopher Nolan",
+      "genero": "Acción, Crimen, Drama",
+      "duracion": 152,
+      "sinopsis": "Batman se enfrenta al Joker, un siniestro villano que siembra el caos en Gotham City.",
+      "imagen": "https://ejemplo.com/imagen4.jpg",
+      "actores": "Christian Bale, Heath Ledger",
+      "idioma": "Inglés",
+      "clasificacion": "PG-13",
+      "calificacion": 9.0,
+      "fechaLanzamiento": "2008-07-18"
+    },
+    {
+      "titulo": "Forrest Gump",
+      "director": "Robert Zemeckis",
+      "genero": "Drama, Comedia",
+      "duracion": 142,
+      "sinopsis": "La vida de Forrest Gump, un hombre con un coeficiente intelectual bajo, pero una gran influencia en la historia de Estados Unidos.",
+      "imagen": "https://ejemplo.com/imagen5.jpg",
+      "actores": "Tom Hanks, Robin Wright",
+      "idioma": "Inglés",
+      "clasificacion": "PG-13",
+      "calificacion": 8.8,
+      "fechaLanzamiento": "1994-07-06"
+    },
+    {
+      "titulo": "Inception",
+      "director": "Christopher Nolan",
+      "genero": "Ciencia ficción, Acción, Aventura",
+      "duracion": 148,
+      "sinopsis": "Un ladrón de la mente entra en los sueños de las personas para robar sus secretos más profundos.",
+      "imagen": "https://ejemplo.com/imagen6.jpg",
+      "actores": "Leonardo DiCaprio, Joseph Gordon-Levitt",
+      "idioma": "Inglés",
+      "clasificacion": "PG-13",
+      "calificacion": 8.8,
+      "fechaLanzamiento": "2010-07-16"
+    },
+    {
+      "titulo": "The Matrix",
+      "director": "The Wachowskis",
+      "genero": "Ciencia ficción, Acción",
+      "duracion": 136,
+      "sinopsis": "Un hacker descubre que el mundo en el que vive es una simulación y se une a un grupo de rebeldes para luchar contra las máquinas que lo controlan.",
+      "imagen": "https://ejemplo.com/imagen7.jpg",
+      "actores": "Keanu Reeves, Laurence Fishburne",
+      "idioma": "Inglés",
+      "clasificacion": "R",
+      "calificacion": 8.7,
+      "fechaLanzamiento": "1999-03-31"
+    }
+  ]
