@@ -6,8 +6,239 @@ como de la pagina se encuentran en el docuemnto de texto entregado
 en el espacio de la tarea 
 
 ## Capturas de Pantalla
-![Texto alternativo](URL de la imagen)
-![Texto alternativo](URL de la imagen)
-![Texto alternativo](URL de la imagen)
-![Texto alternativo](URL de la imagen)
-![Texto alternativo](URL de la imagen)
+### Imagenes de Aplicacion
+![Texto alternativo](https://github.com/EdwarCastellanos5120/Mongoose-DW/blob/main/Recursos/1.png)
+![Texto alternativo](https://github.com/EdwarCastellanos5120/Mongoose-DW/blob/main/Recursos/2.png)
+![Texto alternativo](https://github.com/EdwarCastellanos5120/Mongoose-DW/blob/main/Recursos/3.png)
+![Texto alternativo](https://github.com/EdwarCastellanos5120/Mongoose-DW/blob/main/Recursos/4.png)
+![Texto alternativo](https://github.com/EdwarCastellanos5120/Mongoose-DW/blob/main/Recursos/5.png)
+### Logs de Hosting de Api - Render 
+![Texto alternativo](https://github.com/EdwarCastellanos5120/Mongoose-DW/blob/main/Recursos/6.png)
+### Esquema de Documento Mongo
+![Texto alternativo](https://github.com/EdwarCastellanos5120/Mongoose-DW/blob/main/Recursos/7.png)
+
+## Coleccion de Uso de EndPoints - Postman
+```
+{
+	"info": {
+		"_postman_id": "91e773c9-f693-4b67-ae9e-08a4d40d2e60",
+		"name": "Pelicuas_Edwar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24301159"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/BuscarPeliculaPorGenero/Aventura",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/BuscarPeliculaPorGenero/Aventura",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"BuscarPeliculaPorGenero",
+						"Aventura"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/BuscarPeliculaPorId/652362401cac3dee2f2aade1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/BuscarPeliculaPorId/652362401cac3dee2f2aade1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"BuscarPeliculaPorId",
+						"652362401cac3dee2f2aade1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/EliminarPelicula/652376b365e097009c2a011b",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"Inception Edwar\",\r\n    \"director\": \"Christopher Nolan\",\r\n    \"genero\": \"Ciencia ficción Edwar\",\r\n    \"duracion\": 11456,\r\n    \"anio\": 2019,\r\n    \"sinopsis\": \"Dom Cobb, un ladrón de la mente, es contratado para implantar una idea en la mente de un ejecutivo. A medida que se adentra en el mundo del espionaje corporativo, enfrenta desafíos que ponen a prueba la realidad y los sueños.\",\r\n    \"imagen\": \"https://ejemplo.com/imagen2.jpg\",\r\n    \"actores\": [\"Leonardo DiCaprio\", \"Joseph Gordon-Levitt\", \"Ellen Page\"],\r\n    \"idioma\": \"Aleman\",\r\n    \"clasificacion\": \"PG-13\",\r\n    \"calificacion\": 10,\r\n    \"fechaLanzamiento\": \"2015-07-16T00:00:00.000Z\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/EliminarPelicula/652376b365e097009c2a011b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"EliminarPelicula",
+						"652376b365e097009c2a011b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/ActualizarPelicula/652376b365e097009c2a011b",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"Inception Edwar\",\r\n    \"director\": \"Christopher Nolan\",\r\n    \"genero\": \"Ciencia ficción Edwar\",\r\n    \"duracion\": 11456,\r\n    \"anio\": 2019,\r\n    \"sinopsis\": \"Dom Cobb, un ladrón de la mente, es contratado para implantar una idea en la mente de un ejecutivo. A medida que se adentra en el mundo del espionaje corporativo, enfrenta desafíos que ponen a prueba la realidad y los sueños.\",\r\n    \"imagen\": \"https://ejemplo.com/imagen2.jpg\",\r\n    \"actores\": [\"Leonardo DiCaprio\", \"Joseph Gordon-Levitt\", \"Ellen Page\"],\r\n    \"idioma\": \"Aleman\",\r\n    \"clasificacion\": \"PG-13\",\r\n    \"calificacion\": 10,\r\n    \"fechaLanzamiento\": \"2015-07-16T00:00:00.000Z\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/ActualizarPelicula/652376b365e097009c2a011b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"ActualizarPelicula",
+						"652376b365e097009c2a011b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/CrearPelicula",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"Inception\",\r\n    \"director\": \"Christopher Nolan\",\r\n    \"genero\": \"Ciencia ficción\",\r\n    \"duracion\": 148,\r\n    \"anio\": 2010,\r\n    \"sinopsis\": \"Dom Cobb, un ladrón de la mente, es contratado para implantar una idea en la mente de un ejecutivo. A medida que se adentra en el mundo del espionaje corporativo, enfrenta desafíos que ponen a prueba la realidad y los sueños.\",\r\n    \"imagen\": \"https://ejemplo.com/imagen2.jpg\",\r\n    \"actores\": [\"Leonardo DiCaprio\", \"Joseph Gordon-Levitt\", \"Ellen Page\"],\r\n    \"idioma\": \"Inglés\",\r\n    \"clasificacion\": \"PG-13\",\r\n    \"calificacion\": 8.8,\r\n    \"fechaLanzamiento\": \"2010-07-16T00:00:00.000Z\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/CrearPelicula",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"CrearPelicula"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/peliculas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 5000,\r\n  \"marca\": \"BMW SUPER CARRO LUNA\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/peliculas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"peliculas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/BuscarPelicula/Matrix",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/BuscarPelicula/Matrix",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"BuscarPelicula",
+						"Matrix"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
+
+```
+
+## Desarrollado 
+Edwar Alejandro Castellanos Portillo.
